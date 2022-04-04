@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #eee;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 2px beige;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: blue;
+}
+
+.logo:hover {
+    text-decoration: none;
+    text-shadow: 3px 3px 3px black;
+    font-size: 1.9em;
+    color: brown;
+}
+
+nav a {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px gray;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: blue;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+nav a:hover {
+    text-shadow: 3px 3px 3px blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main-s {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(/WhatsApp\ Image\ 2022-03-08\ at\ 15.35.55.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.imgs {
+    width: 25px;
+    height: 25px;
+}
+
+.main-s h2 {
+    color: blue;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-decoration: solid;
+    text-shadow: 3px 3px 3px black;
+}
+
+.main-s h2 span {
+    display: inline-block;
+    margin-top: 12px;
+    color: blue;
+    font-size: 1.6em;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 3px bisque;
+}
+
+.main-s h2 span:hover {
+    color: blueviolet;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-s h3 {
+    color: blue;
+    text-shadow: 3px 3px 3px bisque;
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 2àpx;
+}
+
+.main-btn {
+    color: #eee;
+    background-color: blue;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 1em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
+
+.main-btn:hover {
+    color: black;
+    background-color: royalblue;
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 1em;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    transition: 1.5s;
+}
+
+.fc-ins a {
+    padding-right: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 2.2em;
+    font-weight: 500;
+    text-shadow: 3px 3px 3px black;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imgs1 {
+    height: 200px;
+    width: 200px;
+    margin-left: 60px;
+}
+
+.card {
+    background-color: #eee;
+    width: 21.1em;
+    height: fit-content;
+    box-shadow: 0 5px 25px gray;
+    border-radius: 30px;
+    padding: 25px;
+    margin: 15px;
+}
+
+.card:hover {
+    background-color: burlywood;
+    width: 21.1em;
+    height: fit-content;
+    box-shadow: 0 20px 25px blue;
+    border-radius: 60px;
+    padding: 25px;
+    margin: 15px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 0 20px bisque;
+    transition: 2s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+
+.infos {
+    text-align: center;
+}
+
+.pro {
+    background-color: black;
+}
+
+.pro .content {
+    margin-top: 20px;
+}
+
+.pro-cards:hover {
+    background-color: #0FF0FF;
+    transition: 1s;
+    border-radius: 30px;
+    color: black;
+    box-shadow: 0px 2px 20px bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+}
+
+.pro-cards:hover .pro-img img {
+    opacity: 0.8;
+}
+
+.pro-cards {
+    background-color: #eee;
+    border: 2px solid bisque;
+    min-height: 14em;
+}
+
+.pro-img img {
+    width: 250px;
+    height: 250 px;
+}
+
+.pro .infos {
+    padding: 5px;
+}
+
+.pro-cat {
+    margin-left: 5px;
+    color: blue;
+    font-size: 0.9em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pro-tit {
+    margin-left: 10px;
+    color: brown;
+    font-weight: 300;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pro-tit a {
+    color: black;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.pro {
+    margin: 5px;
+}
+
+.pro-cards {
+    margin: 7px;
+    border-radius: 10px;
+}
+
+.last {
+    margin: 30px;
+    color: black;
+    text-align: center;
+    font-size: 1.9em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    text-shadow: 0 4PX 20PX blanchedalmond;
+}
+
+.oo {
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: black;
+}

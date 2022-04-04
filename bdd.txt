@@ -1,0 +1,16 @@
+formation oracle
+  pl/sql
+ package
+ procedure
+ fonction
+ varibale
+ table
+ collection
+ ....
+    trigger
+  ...
+        no sql
+      bdd dicistinnel
+             connextion entre des machines 
+              creation machine vertual
+              ....     

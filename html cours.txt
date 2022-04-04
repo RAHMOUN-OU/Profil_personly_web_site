@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title> my first web page </title>
+    <meta name="descreption" content="this s my fierst html code " />
+</head>
+
+<body>
+    <h1> hey </h1>
+    <p><i>oussama </i></p>
+    <p><strong><mark>bbbbb</mark></strong></p>
+    <h2>><u>bbhgdugvuisu</u></h2>
+    <p><del>houdgi</del></p>
+    <h5>H<sub>2</sub>O</h5>
+    <h2>H<sup>2</sup></h2>
+    <a href="mailto:mansiti777oussama@gmail.com">contacet me </a>
+    <br/>
+    <hr>
+
+    <a href="https://google.com" target="_blanc" title="go to google">google</a>
+    <br/>
+    <a href="#1" title="go to paragraphe OUSSA">oussama paragtraphe  </a>
+
+    <img src="https://s.3isk.video/wp-content/uploads/2020/08/7-3.jpg" alt="logo testing">
+    <hr>
+
+    <img src="7jj.png.jpg" alt="">
+    <!--ul unorder kist 
+    om order list
+desxriçption list dl  -->
+    <!-- border for make a cadre  for table-->
+    <table border="1">
+        <caption>table of student
+            <!--this s the title of table-->
+        </caption>
+        <thead>
+            <tr>
+                <th>first name</th>
+                <th>last name</th>
+                <th>id</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>oussama</td>
+                <td>rahmoun</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>yaya</td>
+                <td>khayzo</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td colspan="2">totale is</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+    <dl>
+        <dt>html</dt>
+        <dd>this s the the language html</dd>
+        <dt>css</dt>
+        <dd>this the languiage CSS</dd>
+    </dl>
+    <hr/>
+    <!-- do a line-->
+    <ul>
+        <li>html</li>
+        <li>css</li>
+        <li>js</li>
+    </ul>
+    <ol title="anythin" type="A">
+        <li>adress</li>
+        <li>number</li>
+        <li>time</li>
+    </ol>
+    <p>ujufyeh fhiduyfjduid </p>
+    <p>ujufyeh fhiduyfjduid </p>
+    <p id="1">ujggggggggufyeh fhiduyfjduid </p>
+    <p>ujufyeh fhiduyfjduid </p>
+    <p>ujufyeh fhiduyfjduid </p>
+    <p>ujufyeh fhiduyfjduid </p>
+    <!---   <p>ujufyeh fhiduyfjduid </p>
+    <p>ujufyeh fhiduyfjduid </p>
+    <p>ujufyeh fhiduyfjduid </p>
+    <div class="gi">
+        <table>
+            <thead>
+                <th>les module</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>system</td>
+                </tr>
+                <tr>
+                    <td>jaba</td>
+                </tr>
+                <tr>
+                    <td>recherche opetre</td>
+                </tr>
+                <tr>
+                    <td>oracle</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="meca">
+        <table>
+            <thead>
+                <th>les module</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>system</td>
+                </tr>
+                <tr>
+                    <td>jaba</td>
+                </tr>
+                <tr>
+                    <td>recherche opetre</td>
+                </tr>
+                <tr>
+                    <td>oracle</td>
+                </tr>
+
+            </tbody>
+
+    </div>
+    <div>
+        <video controls muted>
+            <source src="../html1projrct/RYM - Stylo Warqa [Official Music Video] _ [ريم - ستيلو ورقة [فيديو كليب.mp4" type="vedeo/mp4">
+        </video>
+        <audio controls>
+    <source src="/_Jack's_hhub(256k).mp3" type="audio/mp3">
+    </audio>
+    </div>
+
+
+-->
+    <form action="oussama.java">
+        <!--action thi option gonna send all ur infos that u entred to the file "action"-->
+        <div><label>your name</label>
+            <input type="text" placeholder="username">
+            <!-- required is a option for make this username necessary to entreed
+            placeholde like a label but it interier a input if u enter a first caractaire this option gonna annul oatomaticly-->
+        </div>
+        <br>
+
+        <div> <label for="">password</label>
+            <input type="password" maxlength="10" minlength="8">
+        </div>

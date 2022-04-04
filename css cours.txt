@@ -1,0 +1,74 @@
+  size: 0mm; */
+
+
+/* background-image: url(/274600837_1731686010509780_3394705763513937048_n.jpg);
+    background-position: left top;
+} */
+
+
+/* .oussama {
+                    background-color: aqua;
+                    background-color: rgb(1, 25, 17);
+                     rjb unction will mixed between red and blue and green  
+                    background-color: #0000FF;
+                    background-image: url(/274600837_1731686010509780_3394705763513937048_n.jpg);
+                     background-repeat: repeat-x; 
+                     bacjround repeat gonna repaet the pic in all ur web site 
+    repeat X repeat just in ofo9I.. 
+                     background-attachment: fixed; 
+                } */
+
+
+/* .oo {
+                        background-image: url(/274600837_1731686010509780_3394705763513937048_n.jpg);
+                        background-size: contain;
+                         contain gonna make pgoto visivel or any situation
+                         like zoome in in browser zome out .. 
+                    } */
+
+
+/* div {
+                        padding: 60px 10px 40px 60px;
+                         panding gona make a espace  in top ruight down left  
+                        margin: 10px;
+                         magin like padding but this time being in exterier  
+                        border-width: 10px;
+                        border-color: blue;
+                        border-style: solid;
+                         border is in arabic al7awaf and its important to do
+                        style border 
+                        border-radius: 10px;
+                         7awaf da2iriya  
+                
+                    }  */
+
+
+/*                     
+                    span {
+                        margin: 40px;
+                        border: 10px red solid;
+                        width: 200px;
+                        height: 300px;
+                        padding: 30px;
+                        display: block;
+                        display: none;
+                         here is we use a inline element in this case 
+                        this elemnet will not respect with ans heught and margin/..
+                        so we should to gransformet as a block elemnet 
+                        so we use display blook 
+                        display name or hidding the element and we cant retern it
+                        with jS 
+                    } */
+
+
+/* .one,
+                    .two,
+                    .tree {
+                        background-color: #aaa;
+                        padding: 10px;
+                        margin: 10px;
+                    }
+                    
+                    .one {
+                        color: blueviolet;
+                        border-bottom: 2px rosybrown solid;
